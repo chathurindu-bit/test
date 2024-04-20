@@ -27,6 +27,9 @@ public class TestController {
 
     @GetMapping("/sample")
     public String getSampleText() {
+        // comment 1
+        // comment 2
+        // comment 3
         return "This from getSampleText method";
     }
 
