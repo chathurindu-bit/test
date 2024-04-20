@@ -24,4 +24,9 @@ public class TestController {
     public List<Subject> getAllSubject(){
         return testService.getAllSubject();
     }
+
+    @GetMapping("/sample")
+    public String getSampleText() {
+        return "This from getSampleText method";
+    }
 }
