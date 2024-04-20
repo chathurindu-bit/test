@@ -30,6 +30,12 @@ public class TestController {
         // comment 1
         // comment 2
         // comment 3
+        // comment
+        // comment 2
+        // comment 3
+        // comment
+        // comment 2
+        // comment 3
         return "This from getSampleText method";
     }
 
