@@ -43,4 +43,9 @@ public class TestController {
     public String getSampleText2() {
         return "This from getSampleText2 method";
     }
+
+    @GetMapping("/sample3")
+    public String getSampleText3() {
+        return "This from getSampleText3 method";
+    }
 }
