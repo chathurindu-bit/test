@@ -29,4 +29,9 @@ public class TestController {
     public String getSampleText() {
         return "This from getSampleText method";
     }
+
+    @GetMapping("/sample2")
+    public String getSampleText2() {
+        return "This from getSampleText2 method";
+    }
 }
