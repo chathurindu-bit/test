@@ -38,6 +38,10 @@ public class TestController {
 
     @GetMapping("/sample3")
     public String getSampleText3() {
+        return getString();
+    }
+
+    public String getString(){
         return "This from getSampleText3 method";
     }
 
