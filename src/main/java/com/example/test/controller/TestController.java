@@ -28,7 +28,6 @@ public class TestController {
     @GetMapping("/sample")
     public String getSampleText() {
         // comment
-        //
         return "This from getSampleText method";
     }
 
@@ -42,15 +41,5 @@ public class TestController {
     @GetMapping("/sample3")
     public String getSampleText3() {
         return "This from getSampleText3 method";
-    }
-
-    @GetMapping("/sample5")
-    public String getSampleText5() {
-        return "This from getSampleText5 method";
-    }
-
-    @GetMapping("/sample4")
-    public String getSampleText4() {
-        return "This from getSampleText4 method";
     }
 }
