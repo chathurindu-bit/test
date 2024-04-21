@@ -41,12 +41,12 @@ public class TestController {
         return getString();
     }
 
-    public String getString(){
-        return "This from getSampleText3 method";
-    }
-
     @GetMapping("/sample5")
     public String getSampleText5() {
         return "This from getSampleText5 method";
+    }
+
+    public String getString(){
+        return "This from getSampleText3 method";
     }
 }
