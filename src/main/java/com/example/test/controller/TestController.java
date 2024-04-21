@@ -42,14 +42,4 @@ public class TestController {
     public String getSampleText3() {
         return "This from getSampleText3 method";
     }
-
-    @GetMapping("/sample5")
-    public String getSampleText5() {
-        return "This from getSampleText5 method";
-    }
-
-    @GetMapping("/sample4")
-    public String getSampleText4() {
-        return "This from getSampleText4 method";
-    }
 }
