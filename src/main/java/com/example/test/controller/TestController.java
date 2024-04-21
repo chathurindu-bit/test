@@ -33,6 +33,8 @@ public class TestController {
 
     @GetMapping("/sample2")
     public String getSampleText2() {
+        // comment
+        List<String> strings;
         return "This from getSampleText2 method";
     }
 
